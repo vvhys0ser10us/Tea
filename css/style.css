@@ -120,6 +120,12 @@ h4{
  background: var(--primaryColorLight);
 }
 
+.clearfix::after,.clearfix::before{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* 
 ==============
 header
@@ -168,3 +174,55 @@ header
  background: linear-gradient(to right, var(--primaryColorLight),var(--otherColor),var(--primaryColor));
 }
 
+/*
+==============
+skills
+============== 
+*/
+
+.skills{
+  background: var(--tertiaryColor);
+
+}
+
+.skill{
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  transition: var(--transition);
+  display: inline-block;
+  color: var(--primaryColor);
+}
+
+.skill-text{
+  max-width: 17rem;
+  margin: 0 auto;
+}
+
+.skill:hover{
+  background: var(--secondaryColor);
+  box-shadow: 0 2px var(--primaryColor);
+}
+
+.skill:hover .skill-icon{
+  transform: translateY(-5px)
+}
+
+@media screen and (min-width:576px){
+  .skill{
+    float: left;
+    width:50%
+  }
+}
+
+@media screen and (min-width:1200px){
+  .skill{
+
+    width:25%
+  }
+}
