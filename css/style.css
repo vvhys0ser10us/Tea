@@ -13,8 +13,8 @@
 */
 
 :root{
- --primaryColor: #a1dd70;
- --primaryColorLight: #68ac4e;
+ --primaryColor: #68ac4e ;
+ --primaryColorLight:  #a1dd70;
  --secondaryColor: #fdfff0;
  --tertiaryColor: #e8ecd6;
  --otherColor: #a23131;
@@ -127,7 +127,7 @@ header
 */
 .header{
  min-height: 100vh;
- background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
  position: relative;
  /* animation */
  overflow-x: hidden;
@@ -162,4 +162,9 @@ header
  padding: 1rem 1.7rem;
 }
 
+.contentdivider
+{
+ height: 0.5rem;
+ background: linear-gradient(to right, var(--primaryColorLight),var(--otherColor),var(--primaryColor));
+}
 
