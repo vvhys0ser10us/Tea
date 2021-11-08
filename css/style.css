@@ -18,7 +18,7 @@
  --secondaryColor: #fdfff0;
  --tertiaryColor: #e8ecd6;
  --otherColor: #a23131;
- --whiteColor: #fff;
+ --whiteColor: #fdfff0;
  --ff-primary: 'Catamaran', sans-serif;
  --ff-secondary: 'Grand Hotel', cursive;
  --transition: all 0.3s linear;
@@ -126,6 +126,30 @@ h4{
   display: table;
 }
 
+.section-title h3{
+  font-family: var(--ff-secondary);
+  color: var(--primaryColor);
+}
+
+.section-title{
+  margin-bottom: 2rem;
+}
+
+.section-center {
+  padding: 4rem 0;
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+    padding: 4rem 1rem;
+  }
+  
+}
+
 /* 
 ==============
 header
@@ -226,3 +250,46 @@ skills
     width:25%
   }
 }
+
+/*
+==============
+about
+============== 
+*/
+
+.about-img, .about-info{
+  padding: 2rem 0;
+}
+
+.about-picture-container{
+  background: var(--primaryColor);
+  border:0.5rem solid var(--primaryColor);
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+.about-picture{
+  transition: var(--transition);
+}
+
+.about-picture-container:hover .about-picture{
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.about-text{
+  max-width: 26rem;
+}
+
+@media screen and (min-width:992px){
+  .about-img,
+  .about-info{
+    float: left;
+    width:50%
+  }
+
+  .about-info {
+    padding-left:  2rem;
+  }
+}
+
