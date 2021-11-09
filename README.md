@@ -14,4 +14,4 @@
 ## Tutor
 **John Smilga**
 
-- [Youtube](https://www.youtube.com/c/CodingAddict/featured **John Smilga**)
+- [Youtube](https://www.youtube.com/c/CodingAddict/featured "John Smilga")
