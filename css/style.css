@@ -475,7 +475,7 @@ contact
   background: var(--secondaryColor);
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: var(--transition);
   max-width: 35rem;
 }
@@ -530,4 +530,35 @@ contact
     float: left;
     width: 50%;
   }
+}
+/*
+==============
+footer
+============== 
+*/
+.footer {
+  background: #222;
+  text-align: center;
+}
+
+.social-icon{
+  color: var(--secondaryColor);
+  font-size :1.5rem;
+  margin-right:1rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover{
+  color: var(--primaryColor);
+}
+
+.footer-text{
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  color: var(--secondaryColor);
+  font-weight: 400;
+}
+
+.company{
+  color: var(--primaryColor);
 }
