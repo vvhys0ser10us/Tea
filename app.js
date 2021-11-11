@@ -1,7 +1,6 @@
 //setup date
-const date = (document.getElementById(
-  "date"
-).innerHTML = new Date().getFullYear());
+const date = (document.getElementById("date").innerHTML =
+  new Date().getFullYear());
 // setup nav
 const navBtn = document.getElementById("nav-btn");
 const navbar = document.getElementById("navbar");
@@ -14,4 +13,3 @@ navBtn.addEventListener("click", () => {
 navClose.addEventListener("click", () => {
   navbar.classList.remove("showNav");
 });
-
