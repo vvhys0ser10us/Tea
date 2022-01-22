@@ -1,8 +1,8 @@
 ## Project Name
-<h1 align="center">Tea Station</h1>
+[<h1 align="center">Tea Station</h1>](https://xxxtea-stationxxx.netlify.app/)
 
 ## Project description
- - [View](https://xxxtea-stationxxx.netlify.app/)
+
 <p align="center">A simple web project bulit with only HTML and CSS.
 
 ## Author
