@@ -1,17 +1,4 @@
-## Project Name
-[<h1 align="center">Tea Station</h1>](https://xxxtea-stationxxx.netlify.app/)
+## Tea Station
+- An html/css project hosted on (Netlify)(https://xxxtea-stationxxx.netlify.app/)
 
-## Project description
 
-<p align="center">A simple web project bulit with only HTML and CSS.
-
-## Author
-**Haoran Zhou**
-
- - [Github](https://github.com/vvhys0ser10us "Haoran Zhou")
- - [Email](mailto:kens0serious@gmail.com)
-
-## Tutor
-**John Smilga**
-
-- [Youtube](https://www.youtube.com/c/CodingAddict/featured "John Smilga")
